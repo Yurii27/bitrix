@@ -56,6 +56,7 @@ public class AnouncementStepDefinitions {
         Thread.sleep(1000);
 
     }
+
     @Then("user clicks on select Documents From Bitrix24")
     public void user_clicks_on_select_Documents_From_Bitrix24() {
 

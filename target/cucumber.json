@@ -1,0 +1,206 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 487000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user logs in on the login page",
+            "match": {
+              "location": "com.bitrix.step_definitions.AnouncementStepDefinitions.user_logs_in_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-20T22:57:20.298Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1826000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bitrix.step_definitions.Hook.setUp()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "hr4@cybertekschool.com  should be able to upload files, add users and recepients, attach links, insert videos,",
+        "description": "  create a quote, add mention, click on Visual editor, click on Topic icon, record video, add tags.",
+        "id": "as-a-user-i-should-be-able-to-send-anouncements-from-anouncement-subheading-from-\"more\"-under-the-activity-stream;\u003cusername\u003e-should-be-able-to-upload-files--add-users-and-recepients--attach-links--insert-videos-;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 745000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bitrix.step_definitions.Hook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1593000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters credentials \"hr4@cybertekschool.com \" username and \"UserUser\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"hr4@cybertekschool.com \"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"UserUser\"",
+                  "offset": 63
+                }
+              ],
+              "location": "com.bitrix.step_definitions.AnouncementStepDefinitions.user_enters_credentials_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters dashpage",
+            "match": {
+              "location": "com.bitrix.step_definitions.ActiveStreamStepDefinitions.user_enters_dashpage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2059000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks on more button",
+            "match": {
+              "location": "com.bitrix.step_definitions.AnouncementStepDefinitions.user_clicks_on_more_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d84.0.4147.135)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Desaras-MacBook-Pro.local\u0027, ip: \u00272601:140:8400:b010:0:0:0:dca2%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.6\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/pp/jt_g_rbs3tl...}, goog:chromeOptions: {debuggerAddress: localhost:50773}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 14c3df63f111e7a146bb2b715cd42aa8\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\n\tat com.sun.proxy.$Proxy17.click(Unknown Source)\n\tat com.bitrix.step_definitions.AnouncementStepDefinitions.user_clicks_on_announcement(AnouncementStepDefinitions.java:41)\n\tat ✽.user clicks on announcement(file:///Users/desarairinitrydub/IdeaProjects/bitrix/src/test/resources/features/Anouncement.feature:12)\n",
+              "duration": 1044000000,
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "user clicks on announcement",
+            "match": {
+              "location": "com.bitrix.step_definitions.AnouncementStepDefinitions.user_clicks_on_announcement()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user clicks on upload icon",
+            "match": {
+              "location": "com.bitrix.step_definitions.AnouncementStepDefinitions.user_clicks_on_upload_icon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "user clicks on upload files and images",
+            "match": {
+              "location": "com.bitrix.step_definitions.AnouncementStepDefinitions.user_clicks_on_upload_files_and_images()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user clicks on select Documents From Bitrix24",
+            "match": {
+              "location": "com.bitrix.step_definitions.AnouncementStepDefinitions.user_clicks_on_select_Documents_From_Bitrix24()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user clicks on downloadFromExternalDriveOffice365",
+            "match": {
+              "location": "com.bitrix.step_definitions.AnouncementStepDefinitions.user_clicks_on_downloadFromExternalDriveOffice365()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user clicks on create Using Google Docs Document",
+            "match": {
+              "location": "com.bitrix.step_definitions.AnouncementStepDefinitions.user_clicks_on_create_Using_Google_Docs_Document()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "user clicks on add more and clicks on recents, employees and departments and email users",
+            "match": {
+              "location": "com.bitrix.step_definitions.AnouncementStepDefinitions.user_clicks_on_add_more_and_clicks_on_recents_employees_and_departments_and_email_users()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@announcement"
+          }
+        ]
+      }
+    ],
+    "name": "As a user I should be able to send anouncements from Anouncement subheading from \"More\" under the Activity Stream",
+    "description": "",
+    "id": "as-a-user-i-should-be-able-to-send-anouncements-from-anouncement-subheading-from-\"more\"-under-the-activity-stream",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Anouncement.feature",
+    "tags": [
+      {
+        "name": "@announcement",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
